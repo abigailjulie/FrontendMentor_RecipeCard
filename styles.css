@@ -1,0 +1,112 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(123, 40, 79);
+  background-color: rgb(133, 70, 50);
+  background-color: rgb(48, 45, 44);
+  background-color: rgb(95, 87, 78);
+  background-color: rgb(228, 222, 216);
+  background-color: rgb(255, 245, 250);
+  background-color: rgb(243, 230, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  max-width: 575px;
+  font-size: 0.8rem;
+  margin: 20px;
+}
+
+.cardWrapper {
+  padding: 30px;
+}
+
+.headImg {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+header {
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+
+ul,
+ol {
+  padding-left: 10px;
+}
+
+li {
+  margin: 10px;
+  padding-left: 20px;
+}
+
+ol li::marker,
+ul li::marker {
+  color: rgb(133, 70, 50);
+}
+
+ol li::marker {
+  font-weight: 600;
+}
+
+ul li:last-child,
+ol li:last-child {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+section {
+  border-radius: 10px;
+  background-color: rgb(255, 245, 250);
+  padding: 2px 20px;
+}
+
+section h3 {
+  color: rgb(123, 40, 79);
+}
+
+h2 {
+  color: rgb(133, 70, 50);
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.brownText {
+    color: rgb(133, 70, 50);
+    font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding: 8px;
+}
+
+hr {
+    border: 0;
+    height: .1px;
+    background-color: rgb(200, 200, 200);
+}
